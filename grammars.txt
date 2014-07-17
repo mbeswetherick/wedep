@@ -1,0 +1,15 @@
+[s]::=[affirm] [np] [vp]|[np] [vp] [prep_phrase]|[np] [vp] [conj] [np] [vp]
+[affirm_s] ::=[affirm] [s] | [affirm] [s] [affirm] | [s] [affirm]
+[np]::=[dp] [adjp] [n]|[pn]
+[prep_phrase]::=[preposition] [np]
+[dp]::=the|a
+[adjp]::=[adj]|[adj] [adjp]
+[adj]::=big|fat|green|wonderful|faulty|subliminal|pretentious
+[n]::=dog|cat|man|university|father|mother|child|television
+[pn]::=John|Jane|Sally|Spot|Fred|Elmo
+[vp]::=[tv] [np]|[iv]|[tv] [np] [prep_phrase]|[tv] [prep_phrase]
+[tv]::=hit|honored|kissed|helped
+[iv]::=died|collapsed|laughed|wept
+[affirm]::=fuck yes|duba|chall|smang
+[preposition]::=on|under|through|above|in|to|out of|around|without|with|from
+[conj]::=and|or|but|therefore

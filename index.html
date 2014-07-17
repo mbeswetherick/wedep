@@ -1,0 +1,55 @@
+<html>
+  <head>
+  <link href="static/css/wedep.css" type="text/css" rel="stylesheet">
+    <script src="static/js/jquery.js"></script>
+    <script type="text/javascript" src="static/js/jquery.jqtransform.js"></script>
+    <script src="static/js/wedep.js"></script>
+    <script type="text/javascript">
+    $(function() {
+      //find all form with class jqtransform and apply the plugin
+      $("form.jqtransform").jqTransform();
+    });
+  </script>
+
+
+    <link rel="icon" type="image/png" href="static/img/fav.png">
+    <title>wedep - slang genome</title>
+  </head>
+   
+  <body>
+    <nav id="top_nav">
+      <ul>
+        <li><a class="current_page" id='contribute' >Contribute</a></li>
+        <li><a id='browse'>Browse</a></li>
+        <li><a id='random'>Random</a></li>
+      </ul>
+      <span id='indicator'></span>
+    </nav>
+    <div id="stew_holder">
+      <div id="onboard"><p id="chill">what's a weird slang word you use?</p></div>
+      <div id="main">
+        <h1>wedep</h1>
+      
+      </div>
+      <div id="creation">
+        <form class="jqtransform" method="post" id='slangInfo' enctype="multipart/form-data">
+          <input name="word" type="text" id="slang_def" class="slang slang_text" size="10"></input> <br />
+          <select name="rule" id="type_def" class="slang">
+            <option >Select a grammar rule</option>
+            <option value="verb">Verb</option>
+            <option value="adjective">Adjective</option>
+            <option value="noun">Noun</option>
+            <option value="adverb">Adverb</option>
+            <option value="affirmative">Affirmative</option>
+          </select> <br />
+          <textarea name="example" type="text" id="slang_example" class="slang slang_text" size="10" ></textarea> <br />
+          <input name="pic" type="file" id="photo" class=""></input> <br />
+          <!--
+          <input type="submit" id="submit_button" class="slang" value="Submit Preferences" accept="image/*"></input> -->
+        </form>
+          <a id='submit_button' class='slang'>submit</a>
+      </div>
+    </div>
+    
+    </body>
+</html>

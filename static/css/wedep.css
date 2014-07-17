@@ -1,0 +1,273 @@
+/* this affects the main part of the page */
+
+@import url(http://fonts.googleapis.com/css?family=Armata);
+
+#main {
+  border-bottom: 1px solid black;
+  text-align: center;
+  height: 152px;
+  padding-top: 194px;
+}
+
+body{
+  margin: 0;
+}
+
+#indicator {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  left: 130px;
+  top: 37px;
+  float: right;
+  position: relative;
+  height: 3px;
+  width: 91px;
+  background-color: black;
+}
+
+.randomSlang {
+  line-height: 1.5;
+  margin-top: 1em;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Armata';
+}
+
+#randomPhotoHolder {
+  padding-top: 1em;
+  width: 100%;
+}
+
+.randomPhoto{
+  border-bottom: 5px solid;
+  padding-bottom: 5px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+#browse:hover, #contribute:hover, #random:hover{
+  cursor: pointer;
+}
+
+#chill{
+  font-size: 11pt;
+}
+
+#stew_holder{
+  text-align: center;
+  height: 100%;
+  width: 65%;
+}
+
+#stew_holder, #main {
+  margin: auto;
+}
+
+.slang{
+  width: 40%;
+}
+
+.slang_text{
+  height:90px;
+  font-size:50pt;
+}
+
+.slang_option, .slang{
+  margin-top: 25px;
+}
+
+#creation{
+  text-align:center;
+  padding-bottom: 50px;
+}
+
+#type_def {
+  width: 40%;
+  margin-top: 54px;
+  margin-bottom: 30px;
+}
+
+#canvas{
+  height:250px;
+  width:500px;
+  border:1px solid pink;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#onboard{
+  text-align: left;
+  border-radius: 1px;
+  padding: 3px;
+  float: left;
+  left: 0;
+  top: 373px;
+  width: 134px;
+  height: 83px;
+  position: relative;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(242,242,242);
+  border-radius: 1px;
+}
+
+#submit_button, #randomAgain{
+  height: 80px;
+  font-size: 50pt;
+  font-family: 'Armata', sans-serif;
+  margin-top: 35px;
+  border-radius: 3px;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  width: 278px;
+  padding: 5px;
+}
+
+#randomAgain {
+  margin-top: 0px;
+  margin-bottom: 2em;
+  height: 62px;
+  font-size: 26pt;
+  padding-top: 23px;
+}
+
+.userRandom {
+  height: 70px;
+  display: inline-block;
+  border-bottom: 5px solid black;
+}
+
+#submit_button:hover, #randomAgain:hover{
+  cursor: pointer
+}
+
+
+#photo{
+  width: 39%;
+  font-size: 13pt;
+  margin-top:46px;
+  margin-bottom: 13px;
+}
+
+#slang_example{
+  font-size: 15pt; 
+}
+
+
+div > p {
+  margin-left: 16px;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+
+/* Here is the library smang */
+
+#library_holder{
+  height: 100%;
+  width: 65%;
+  margin: auto;
+}
+
+.lib_piece{
+  width: 100%;
+  height: 600px;
+}
+
+.lib_photo{
+  float:left;
+  width: 65%;
+  height: 500px;
+  overflow: hidden;
+  text-align: right;
+}
+
+.lib_text{
+  width: 35%;
+  height: 500px;
+  float: right;
+}
+
+.lib_slangtitle, .lib_slangdef {
+  text-align: left;
+}
+
+
+.lib_slangtitle{
+  margin-top: 0;
+  font-family: 'Armata', sans-serif;
+  font-size: 66pt;
+  padding-left: 36px;
+}
+
+.lib_slangdef{
+  margin-left: 55px;
+  border-left: solid 1.5px grey;
+  font-family: 'Armata';
+  font-size: 22pt;
+  padding-left: 16px;
+}
+
+input:focus{
+  -webkit-box-shadow: 0px 0px 5px #007eff;
+  -moz-box-shadow: 0px 0px 5px #007eff;
+  box-shadow: 0px 0px 5px #007eff;
+}
+/* image upload */
+
+#top_nav{
+  padding: 5px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+ul{
+  float: right;
+}
+
+
+
+li {
+  display: inline-block; 
+  margin-right: 25px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14pt;
+  color: #000;
+  text-decoration: none;
+}
+
+a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14pt;
+  text-decoration: none;
+  color: black;
+}
+
+
+h1{
+  font-family: 'Armata', sans-serif;
+  text-align: center;
+  font-size: 75pt;
+  margin-top: -23px;
+}
+
+h1:hover{
+  cursor:default;
+}
+
+
+.current_page{
+  /* color: rgba(0, 0, 0, 0.42); */
+  padding-bottom: 3px;
+  /*
+  border-radius: 3px;
+  border-bottom: 3px solid;
+  */
+}
+
+#spacer{
+  width: 100%;
+  height: 50px;
+}
+
